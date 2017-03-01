@@ -5,9 +5,10 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style1.css">
+    
 
     <title>Karthik J</title>
 
@@ -25,13 +26,7 @@
     <!-- Theme CSS -->
     <link href="css/creative.min.css" rel="stylesheet">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+   
 </head>
 
 <body id="page-top">
@@ -69,10 +64,18 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
+ 
+
 
     <header>
+    <div id="large-header" class="large-header">
+  <canvas id="demo-canvas"></canvas>
+  
+
         <div class="header-content">
             <div class="header-content-inner" id="home">
+            <p></p>
+             
                 <h1 id="homeHeading">Karthik Jakkampudi</h1>
                 <h2>User Interface Developer</h2>
                 <hr>
@@ -81,6 +84,8 @@
                         <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
             </div>
         </div>
+                </div>
+
     </header>
 
             <section class="bg-primary" id="about">
@@ -94,14 +99,15 @@
                         </div>
                         <div class="col-lg-4">
                             <a>
-                                <img style="height: 350px; width: 400px; margin: 0px 40px 40px 100px " src="img\portfolio\fullsize\kar.jpg" class="img-responsive" alt="">
+                                <img src="C:\Users\karthik\Documents\GitHub\karthik1918.github.io\img\portfolio\fullsize\kar.jpg" class="img-circle" alt="Cinque Terre" width="400" height="350"> 
                             </a>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section  id="skills"  style="background-color: #F5F5DC;">
+            <section>
+            <div id="skills">
                 <div class="container">
                         <div class="col-lg-12 text-center">
                             <h2 class="section-heading">WHAT I'M GOOD AT</h2>
@@ -109,6 +115,61 @@
                         </div>
                     </div>
                 </div>
+            </div>    
+
+<div style="width: 960px; margin-right: auto; margin-left: auto; ">
+                
+
+<div class="skillbar clearfix " data-percent="100%">
+    <div class="skillbar-title" style="background: #d35400;"><span>HTML5</span></div>
+    <div class="skillbar-bar" style="background: #e67e22;"></div>
+    <div class="skill-bar-percent">100%</div>
+</div> <!-- End Skill Bar -->
+
+<div class="skillbar clearfix " data-percent="85%">
+    <div class="skillbar-title" style="background: #2980b9;"><span>CSS3</span></div>
+    <div class="skillbar-bar" style="background: #3498db;"></div>
+    <div class="skill-bar-percent">85%</div>
+</div> <!-- End Skill Bar -->
+
+<div class="skillbar clearfix " data-percent="50%">
+    <div class="skillbar-title" style="background: #2c3e50;"><span>jQuery</span></div>
+    <div class="skillbar-bar" style="background: #2c3e50;"></div>
+    <div class="skill-bar-percent">50%</div>
+</div> <!-- End Skill Bar -->
+
+<div class="skillbar clearfix " data-percent="80%">
+    <div class="skillbar-title" style="background: #2c3e50;"><span>JavaScript</span></div>
+    <div class="skillbar-bar" style="background: #2c3e50;"></div>
+    <div class="skill-bar-percent">80%</div>
+</div> 
+
+<div class="skillbar clearfix " data-percent="80%">
+    <div class="skillbar-title" style="background: #46465e;"><span>AngularJS</span></div>
+    <div class="skillbar-bar" style="background: #5a68a5;"></div>
+    <div class="skill-bar-percent">80%</div>
+</div> <!-- End Skill Bar -->
+
+<div class="skillbar clearfix " data-percent="75%">
+    <div class="skillbar-title" style="background: #333333;"><span>Wordpress</span></div>
+    <div class="skillbar-bar" style="background: #525252;"></div>
+    <div class="skill-bar-percent">75%</div>
+</div> <!-- End Skill Bar -->
+
+<div class="skillbar clearfix " data-percent="90%">
+    <div class="skillbar-title" style="background: #27ae60;"><span>Bootstrap</span></div>
+    <div class="skillbar-bar" style="background: #2ecc71;"></div>
+    <div class="skill-bar-percent">90%</div>
+</div> <!-- End Skill Bar -->
+
+<div class="skillbar clearfix " data-percent="70%">
+    <div class="skillbar-title" style="background: #124e8c;"><span>Photoshop</span></div>
+    <div class="skillbar-bar" style="background: #4288d0;"></div>
+    <div class="skill-bar-percent">70%</div>
+</div> 
+</div><!-- End Skill Bar -->
+
+<!--
 
                 <div class="row mycol">
                     <div class="col-md-3">
@@ -135,8 +196,10 @@
                      <div class="col-md-3">
                         <p><img style="width: 200px; height: 200px" src="img\portfolio\fullsize\react.png"></p>
                     </div>
-                </div>
+                </div>-->
         
+
+
         </section>
         <section id="Resume" style="margin-top: -100px">
             <div class="row">
@@ -145,7 +208,7 @@
                         <div class="call-to-action">
                             <h2>Resume</h2>
                             <p><i class="fa fa-download fa-2x" aria-hidden="true"></i></p>
-                            <a href="img\Karthik_J.pdf" class="btn btn-default btn-xl sr-button">Download Now!</a>
+                            <a href="img\Karthikk_Jakkampudi.pdf" class="btn btn-default btn-xl sr-button">Download Now!</a>
                         </div>
                     </div>
                 </aside>
@@ -198,6 +261,13 @@
             </div>
         </section>
 
+
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    
+    
+
         <!-- jQuery -->
         <script src="vendor/jquery/jquery.min.js"></script>
 
@@ -212,6 +282,17 @@
         <!-- Theme JavaScript -->
         <script src="js/creative.min.js"></script>
 
+        <script type="text/javascript">
+                            jQuery(document).ready(function(){
+                    jQuery('.skillbar').each(function(){
+                        jQuery(this).find('.skillbar-bar').animate({
+                            width:jQuery(this).attr('data-percent')
+                        },6000);
+                    });
+                });
+        </script>
+
 </body>
 
 </html>
+

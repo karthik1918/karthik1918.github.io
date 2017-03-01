@@ -1,5 +1,12 @@
 (function($) {
     "use strict"; // Start of use strict
+    jQuery(document).ready(function(){
+    jQuery('.skillbar').each(function(){
+        jQuery(this).find('.skillbar-bar').animate({
+            width:jQuery(this).attr('data-percent')
+        },6000);
+    });
+});
 
     // jQuery for page scrolling feature - requires jQuery Easing plugin
     $('a.page-scroll').bind('click', function(event) {
@@ -60,5 +67,6 @@
             tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
         }
     });
+    
 
 })(jQuery); // End of use strict
