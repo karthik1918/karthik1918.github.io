@@ -44,7 +44,7 @@ p {
 }
 
 
-button.button1{
+.button1{
   background-color: #004A7F;
   -webkit-border-radius: 10px;
   border-radius: 10px;
@@ -82,7 +82,7 @@ button.button1{
   100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
 }
 
-button.button1 {
+.button1 {
   -webkit-animation: glowing 1500ms infinite;
   -moz-animation: glowing 1500ms infinite;
   -o-animation: glowing 1500ms infinite;
